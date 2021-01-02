@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // calculate the completion rate of this session
     const sessionDuration =
       type === "Work" ? workSessionDuration : breakSessionDuration;
-    return (timeSpentInCurrentSession / sessionDuration) * 10;
+    return (timeSpentInCurrentSession / sessionDuration);
   };
 
 });
